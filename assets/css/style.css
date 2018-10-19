@@ -4,6 +4,9 @@ body {
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+  display: block;
+  margin: 0px;
+  padding: 0px;
 }
 
 * {
@@ -17,6 +20,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  disaply: block;
 }
 
 h1,
@@ -231,7 +235,8 @@ input[type=submit] {
       max-width: 100%;
     }
     nav{
-      float: none;
+      float: left;
+      margin: 0px;
     }
   
 }
@@ -242,17 +247,21 @@ input[type=submit] {
   
   #masthead{ 
     max-width: 100%; 
-    margin-bottom: 30px;
+    margin: 0px;
   }
   .container{
     max-width: 100%;
+    margin: 0px;
   }
   body{ 
     font-size: 18px;
   }
   #main-container{ 
     max-width: 768px; 
-    margin: 5%; 
+    margin: 0px;
+  }
+  #logo{
+    margin: 0px;
   }
   
   
@@ -262,29 +271,33 @@ input[type=submit] {
 
 @media screen and (max-width: 640px){
 
-  body{ font-size: 18px; }
+  body{ 
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+
+  }
   #main-container{ 
     max-width: 640px; 
-    margin: 20px;
+    margin: 0px;
   }
   #masthead{ 
     max-width: 640px; 
-    margin: 20px;
+    margin: 0px;
+    overflow: hidden;
   }
   .container{
     max-width: 640px;
-    margin: 20px;
+    margin: 0px;
   }
   nav{
     text-align: center;
-
+    float: none;
   }
   #logo{
     width: 100%;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0px;
     text-align: center;
-
   }
 }
 
